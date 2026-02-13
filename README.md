@@ -1,91 +1,56 @@
-# 👋 Koffi Innocents Kouassi — Finance durable & data (ESG/Climat)
+ (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
+diff --git a/README.md b/README.md
+index 178c8ef0ba5fb93cb055803122326860a4c8ba77..1df35f722f17fbf209262922460477ffe6f7f873 100644
+--- a/README.md
++++ b/README.md
+@@ -1,91 +1,58 @@
++# 👋 Koffi Innocents Kouassi — Finance durable & Data (ESG/Climat)
+ 
++🎓 **Master 2 — Finance durable / Finance internationale & soutenable**  
++Je développe des livrables à l’interface **finance + données + durabilité** : analyse climat, automatisation, reporting ESG et visualisation orientée décision.
+ 
++➡️ **Objectif actuel : stage de fin d’études** (ESG / Sustainable Finance / Data & Reporting / RSE)
+ 
+ 
+ ## 🔗 Liens rapides
++- **LinkedIn** : https://www.linkedin.com/in/koffi-innocents-kouassi/
++- **CV (PDF)** : *à ajouter*
++- **Email** : innocentskkouassi@gmail.com
+ 
+ 
++## 💼 Positionnement
++Je me positionne sur des missions où il faut :
++- Structurer et fiabiliser des données ESG/climat
++- Produire des analyses claires pour des décisions d’investissement/reporting
++- Transformer des besoins métier en livrables concrets (fichiers, dashboards, notes d’analyse)
 
-🎓 **Master 2 (Finance durable / Finance internationale & soutenable)**  
-Je construis des projets à l’interface **finance + données + durabilité** : métriques climat (ITR), scoring carbone, reporting ESG, automatisation Excel/VBA, analyse et visualisation.
+ 
 
-➡️ **Objectif : stage de fin d’études** (ESG / sustainable finance / data & reporting / RSE)
-
----
-
-## 🔗 Liens rapides
-- **LinkedIn** : https://www.linkedin.com/in/koffi-innocents-kouassi/  
-- **CV** : *(ajoute ici le lien vers ton PDF, ex. dans un repo `cv/` ou via un gist)*  
-- **Email** : *(innocentskkouassi@gmail.com)*  
-
----
-
-## 🚀 Projets phares
-
-### 1) ITR vs DEFIS CARBONE — Comparaison de métriques d’alignement climatique
-**Résumé :** Analyse comparée de l’**Implied Temperature Rise (MSCI)** et des scores **DEFIS CARBONE** sur un échantillon d’entreprises européennes (matching, nettoyage, analyse sectorielle, distribution des scores, écarts et interprétations).  
-**Stack :** Python / Excel (data cleaning, matching, visualisations)  
-**Valeur :** comprendre les divergences méthodologiques et ce qu’elles impliquent pour l’allocation & le reporting climat.
-
-🔗 Repo : https://github.com/<ton-user>/<repo-itR-defis>  
-📄 Résultats : `reports/` + figures + notebook `analysis.ipynb`
-
----
-
-### 2) Excel/VBA — Automatisation de consolidation & matching (tickers / cours)
-**Résumé :** Macros VBA pour **remplir automatiquement des feuilles “Cours_…”** à partir d’une table de correspondance (noms ↔ tickers), avec dictionnaires, boucles, contrôles d’erreurs.  
-**Stack :** Excel / VBA  
-**Valeur :** gain de temps, réduction d’erreurs, process reproductible.
-
-🔗 Repo : https://github.com/<ton-user>/<repo-vba-cours-matching>  
-📌 Dossier : `src/` (modules VBA) + `demo.xlsx` (exemple)
-
----
-
-### 3) R — Visualisation de rendements de portefeuilles (graphiques superposés)
-**Résumé :** Script R pour tracer plusieurs portefeuilles **sur le même repère**, comparer les performances, et produire des graphiques prêts pour un rapport.  
-**Stack :** R (tidyverse/ggplot si tu utilises, ou base R)  
-**Valeur :** lecture rapide des écarts de perf/volatilité.
-
-🔗 Repo : https://github.com/<ton-user>/<repo-r-portfolio-charts>  
-▶️ Script : `plot_portfolios.R` + données exemple dans `data/`
-
----
-
-### 4) Toolkit Reporting — CSRD / RSE / ISO (veille + indicateurs)
-**Résumé :** Templates & mini-projets orientés **reporting de durabilité** : structure d’indicateurs, checklists de collecte, veille réglementaire, matrices de matérialité (version “propre” et réutilisable).  
-**Stack :** Markdown / Excel / (optionnel Python)  
-**Valeur :** passer de la théorie à des livrables opérationnels.
-
-🔗 Repo : https://github.com/<ton-user>/<repo-reporting-esg-toolkit>  
-
----
-
-### 5) Crowdfunding & communication associative — Templates “Abricot-Piment”
-**Résumé :** Trames d’appels aux dons, relances, messages LinkedIn/email, mini-guide de campagne (calendrier, segmentation donateurs, KPI).  
-**Stack :** Markdown / Docs  
-**Valeur :** communication claire + pilotage concret.
-
-🔗 Repo : https://github.com/<ton-user>/<repo-crowdfunding-templates>  
-
----
-
-## 🧰 Compétences (ce que je sais livrer)
-- **ESG / Climat :** ITR, scoring carbone, lecture des méthodologies, analyse sectorielle, cohérence des données  
-- **Data :** nettoyage, matching (tickers/noms), contrôles qualité, automatisation  
-- **Outils :** Excel avancé, **VBA**, **Python**, **R**, reporting & visualisation  
-- **Travail :** livrables structurés, reproductibilité, documentation, outputs “prêts rapport”
-
----
-
-## 🧪 Comment je travaille
-- **Reproductible** : scripts / notebooks + dossiers `data/`, `src/`, `reports/`
-- **Lisible** : README par projet, étapes claires, outputs versionnés
-- **Orienté décision** : je transforme des données en **insights exploitables**
-
----
-
-## 📌 Roadmap (prochaines améliorations)
-- Ajouter des jeux de données “sample” anonymisés quand nécessaire  
-- Ajouter des tests simples (qualité des colonnes, doublons, outliers)  
-- Standardiser un template de repo (structure + badges + conventions)
-
----
-
-## 📫 Contact
-Si tu veux échanger sur un stage / projet **ESG & data**, écris-moi : **<innocentskkouassi@gmail.com>**
-
++## 🧰 Compétences
++- **ESG / Climat** : ITR, scoring carbone, lecture de méthodologies, analyse sectorielle
++- **Data** : nettoyage, matching, contrôles qualité, structuration de jeux de données
++- **Outils** : Excel avancé, VBA, Python, R, visualisation, documentation
++- **Reporting** : logique CSRD/RSE, construction d’indicateurs, synthèse opérationnelle
+ 
+ 
++## 🚀 Projets (à venir)
++Les projets seront ajoutés progressivement, avec pour chacun :
++1. **Contexte & objectif métier**
++2. **Données & méthodologie**
++3. **Résultats clés (KPI / insights)**
++4. **Limites & pistes d’amélioration**
++5. **Documentation d’exécution** (reproduire l’analyse pas à pas)
+ 
+ 
++## 📌 Roadmap du portfolio
++- Ajouter les projets un par un avec documentation complète
++- Standardiser un template de repo commun (structure, conventions, README)
++- Ajouter des exemples de données anonymisées quand c’est possible
+ 
+ ---
+ 
+ ## 📫 Contact
++Pour échanger sur un stage ou un projet **ESG & data** : **innocentskkouassi@gmail.com**
+ 
+EOF
+)
