@@ -34,40 +34,7 @@ Les projets seront ajoutés progressivement, avec pour chacun :
 3. **Résultats clés (KPI / insights)**
 4. **Limites & pistes d’amélioration**
 5. **Documentation d’exécution** (reproduire l’analyse pas à pas)
- #!/usr/bin/env bash
-définir -euo pipefail
-
-si [ " $# " -lt 2 ]; alors
-  echo "Utilisation : $0 <numéro> <nom_projet>" 
-  echo "Exemple : $0 1 \"Analyse Rendus Portefeuilles\"" 
-  sortie 1
-fi
-
-NUMÉRO_DE_PROJET= " $1 "
-changement
-NOM_DU_PROJET= "$*"
-
-slugify () {
-  echo " $1 " \
  
-    | tr '[:upper:]' '[:lower:]' \
-  
-    | sed -E 's/[^a-z0-9]+/-/g; s/^-+//; s/-+$//'
-}
-
-PROJECT_SLUG= " $(slugify " $PROJECT_NAME " ) "
-PROJECT_DIR= "projets/ ${PROJECT_NUMBER} - ${PROJECT_SLUG} "
-
-si [ -d " $PROJECT_DIR " ]; alors
-  echo "Le dossier $PROJECT_DIR existe déjà." 
-  sortie 1
-fi
-
-mkdir -p " $PROJECT_DIR " /{src,excel,reports,data,outputs}
-
-créer " $PROJECT_DIR /excel/.gitkeep" " $PROJECT_DIR /data/.gitkeep" " $PROJECT_DIR /outputs/.gitkeep"   
-
-cat > " $PROJECT_DIR /PROJECT.md" << EOT
 # ${PROJECT_NUMBER}) ${PROJECT_NAME}
 
 ## Contexte & objectif métier
